@@ -1,0 +1,40 @@
+{
+  "messages": [
+    {
+      "id": "M1",
+      "language": "en",
+      "category": "order",
+      "summary": "Customer asks about paying by invoice and delivery time for Pro Plan.",
+      "urgency": "low",
+      "needs_human": false,
+      "draft_reply": "Hello Mark, thank you for your interest! Yes, we do offer invoice payment for the Pro Plan. Please contact our billing team at billing@example.com to arrange it. Delivery typically takes 2-3 business days after payment is confirmed. Let us know if you need further assistance!"
+    },
+    {
+      "id": "M2",
+      "language": "zh",
+      "category": "refund",
+      "summary": "Customer reports duplicate charge and requests refund.",
+      "urgency": "high",
+      "needs_human": true,
+      "draft_reply": "您好，非常抱歉给您带来不便！我们已注意到您被重复扣款的问题，并会立即为您核实。请您提供订单号或账单截图，我们将尽快为您处理退款，并确保此类问题不再发生。感谢您的反馈，我们非常重视您的信任。"
+    },
+    {
+      "id": "M3",
+      "language": "en",
+      "category": "complaint",
+      "summary": "Customer cannot download files due to website error, urgent deadline, threatens chargeback.",
+      "urgency": "high",
+      "needs_human": true,
+      "draft_reply": "We sincerely apologize for the frustration and the delay in response. We are prioritizing this issue and will have our technical team fix the download error immediately. Please check your email for a direct link to your files, which we will send within the hour. We understand the urgency and will ensure you receive your files in time."
+    },
+    {
+      "id": "M4",
+      "language": "en",
+      "category": "spam",
+      "summary": "Spam advertisement for watches.",
+      "urgency": "low",
+      "needs_human": false,
+      "draft_reply": "NO REPLY NEEDED"
+    }
+  ]
+}
